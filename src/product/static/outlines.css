@@ -5,7 +5,7 @@ html {
 }
 
 html::before {
-  content: "Product page";
+  content: 'Product page';
   background-color: #bc3630;
   display: block;
   color: white;
@@ -21,7 +21,7 @@ html::before {
 }
 
 .inspire_fragment::before {
-  content: "Inspire (Web Component)";
+  content: 'Recommendations (Web Component)';
   display: block;
   background-color: #7c9b2f;
   color: white;
@@ -42,7 +42,7 @@ checkout-buy {
 }
 
 checkout-buy::before {
-  content: "Checkout (Web Component)";
+  content: 'Checkout (Web Component)';
   display: block;
   background-color: #5f9dc8;
   color: white;
