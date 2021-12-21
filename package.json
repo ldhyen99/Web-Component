@@ -1,0 +1,19 @@
+{
+  "name": "microfe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently --names \"product ,recommend ,checkout\" \"mfserve --listen 3001 src/product\" \"mfserve --listen 3002 src/recommend\" \"mfserve --listen 3003 src/checkout\" \"wait-on http://localhost:3001/item/hennessy && opener http://localhost:3001/item/hennessy\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@microfrontends/serve": "^11.3.0",
+    "concurrently": "^6.0.2",
+    "opener": "^1.5.2",
+    "wait-on": "^5.3.0"
+  }
+}

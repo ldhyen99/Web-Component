@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Drinking Factory</title>
+    <link href="/static/page.css" rel="stylesheet" />
+    <link href="/static/outlines.css" rel="stylesheet" />
+    <link
+      href="http://localhost:3002/static/fragment.css"
+      rel="stylesheet"
+    />
+    <link
+    href="http://localhost:3003/static/fragment.css"
+    rel="stylesheet"
+  />
+  </head>
+  <body class="layout">
+    <h1 class="header">The Cognac Store</h1>
+    <div class="product">
+      <h2>Hennessy</h2>
+      <img src="https://user-images.githubusercontent.com/59736798/146520601-ff3de252-8e8e-4e40-a1af-88e914b90eda.jpeg" />
+    </div>
+    <div class="decide_details">
+        <checkout-buy sku="hennessy"></checkout-buy>
+    </div>
+    <aside class="recommend_recos">
+        <inspire-recommendations sku="hennessy"></inspire-recommendations>
+    </aside>
+    <script src="http://localhost:3002/static/fragment.js" async></script>
+    <script src="http://localhost:3003/static/fragment.js" async></script>
+  </body>
+</html>
