@@ -12,12 +12,13 @@ Product:
 - Run on localhost 3001, to show image & infomation of product on Detail page
 - Main page
 
+Checkout button
+
+- Run on localhost 3003, show button checkout & alert when user click on it
+- Display on Main page by Web Component
+
 Recommendations:
 
 - Run on localhost 3002, show product recommendations list
 - Display on Main page by Web Component
 
-Checkout button
-
-- Run on localhost 3003, show button checkout & alert when user click on it
-- Display on Main page by Web Component
